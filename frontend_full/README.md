@@ -68,3 +68,123 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Implementing React framework learnings
+
+1. fetch
+2. components
+3. pagination
+4. sorting
+5. query params
+6. mvc architecture
+7. best code practises - .gitignore , .env
+
+--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-/-/-/-
+
+Building a full-fledged front-end e-commerce app using React involves implementing a wide range of functionalities to provide a seamless shopping experience for users. Here's a list of some key functionalities you should consider incorporating into your React e-commerce app:
+
+1. User Authentication and Registration:
+
+   - User sign-up and registration.
+   - User login and authentication with secure token-based authentication (JWT).
+   - User password reset and account recovery.
+
+2. Product Listing and Search:
+
+   - Display a list of products with details such as name, price, description, and images.
+   - Implement search and filtering options to help users find products easily.
+
+3. Product Details:
+
+   - Show detailed product information when a user clicks on a product.
+   - Allow users to view product images in a gallery or slider.
+
+4. Shopping Cart:
+
+   - Enable users to add products to their shopping cart.
+   - Show a summary of items in the cart with total price and quantities.
+   - Allow users to update or remove items from the cart.
+
+5. Checkout Process:
+
+   - Implement a step-by-step checkout process for users to complete their purchase.
+   - Collect user shipping information and payment details securely.
+
+6. Order History:
+
+   - Display the user's order history with details of past purchases.
+
+7. User Profile:
+
+   - Provide a user profile section to manage account information, addresses, and payment methods.
+
+8. Wishlist and Favorites:
+
+   - Allow users to create and manage a wishlist or favorites list for future reference.
+
+9. Responsive Design:
+
+   - Ensure that the app works seamlessly on various devices, including desktops, tablets, and smartphones.
+
+10. Pagination and Infinite Scroll:
+
+    - Implement pagination or infinite scroll for product listing to improve performance and user experience.
+
+11. Product Reviews and Ratings:
+
+    - Enable users to leave product reviews and ratings.
+
+12. Related Products:
+
+    - Show related or recommended products based on the user's browsing history or interests.
+
+13. Product Categories and Sorting:
+
+    - Categorize products and allow users to sort products by price, popularity, etc.
+
+14. Payment Gateway Integration:
+
+    - Integrate a payment gateway to enable secure online transactions.
+
+15. Guest Checkout:
+
+    - Allow users to checkout as guests without registration.
+
+16. Shipping Options:
+
+    - Provide different shipping options and calculate shipping costs based on location and order details.
+
+17. Social Media Integration:
+
+    - Allow users to share products or their shopping experience on social media platforms.
+
+18. Notification System:
+
+    - Implement a notification system to inform users about order status, promotions, etc.
+
+19. Wishlist Sharing:
+
+    - Allow users to share their wishlist with friends or family.
+
+20. Search Autocomplete:
+
+    - Implement a search autocomplete feature to help users find products quickly.
+
+21. SEO Optimization:
+
+    - Ensure that the app is SEO-friendly with proper meta tags and URLs.
+
+22. Currency Conversion:
+    - Provide options for users to view product prices in different currencies.
+
+Remember that this is not an exhaustive list, and the specific functionalities may vary based on the requirements and scope of your e-commerce app. As you build the app, always prioritize user experience, performance, and security to deliver a high-quality and user-friendly e-commerce platform.
+
+---------------------------------///------------
+
+##Documentation
+
+1. Installed react , react-redux, redux, redux-thunk, react-router-dom, chakra ui, styled componets , json server , axios .
+
+2. Set up json server command in package json --> post install of js, set up scripts , just run script in terminal, db.json ll automatically get created
+
+3.
