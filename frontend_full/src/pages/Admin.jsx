@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import { createGlobalStyle } from 'styled-components';
-
-//CREATING A FORM WITH USE-STATE 
+import { addProd } from "../Redux/productReducer/action";
+//CREATING A FORM WITH single USE-STATE 
 
 
 const GlobalStyle = createGlobalStyle`
@@ -24,7 +25,7 @@ const InitialState={
 
 const AdminForm = () =>{
     const [product, setProduct]= useState(InitialState)
-    
+    const dispatch = useDispatch()
    
     const handleChange=(e)=>{
             // console.log(e);  OBSERVE -->event target name input 
@@ -42,6 +43,7 @@ const AdminForm = () =>{
     const handleSubmit = (e)=>{
             e.preventDefault()
             console.log(product);
+            dispatch(addProd(product));
             setProduct(InitialState);
     }
     
