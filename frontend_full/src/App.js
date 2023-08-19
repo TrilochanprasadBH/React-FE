@@ -1,10 +1,11 @@
 import './App.css';
-import AdminForm from './pages/Admin';
+import AllRoutes from './pages/AllRoutes';
+
 
 function App() {
   return (
     <div className="App">
-     <AdminForm/>
+     <AllRoutes/>
     </div>
   );
 }

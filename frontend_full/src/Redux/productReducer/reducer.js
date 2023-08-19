@@ -1,6 +1,6 @@
 import * as types from "../productReducer/actionType";
 
-const initalState={
+const initalState = {
 isLoading:false,
 isError:false,
 products:[]
